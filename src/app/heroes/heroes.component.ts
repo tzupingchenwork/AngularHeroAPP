@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Hero } from '../hero';
 
-import { HEROES } from '../mock-heroes';
+// import { HEROES } from '../mock-heroes';
 
 import { HeroService } from '../hero.service';
 
@@ -12,10 +12,10 @@ import { HeroService } from '../hero.service';
   styleUrls: ['./heroes.component.css']
 })
 export class HeroesComponent implements OnInit {
-  hero: Hero = {
-    id: 1,
-    name: 'Thor'
-  };
+  // hero: Hero = {
+  //   id: 1,
+  //   name: 'Thor'
+  // };
   // heroes = HEROES;
   heroes: Hero[];
 
